@@ -11,3 +11,9 @@ make install
 ```sh
 make develop
 ```
+
+## Build
+
+```sh
+make build
+```
