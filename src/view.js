@@ -1,9 +1,11 @@
 import { watch } from 'melanke-watchjs';
 
-const watchData = (data) => {
-  watch(data, () => {
-
-  });
+const watchers = {
+  watchData: (data) => {
+    watch(data, () => {
+      console.log(data);
+    });
+  },
 };
 
-export default watchData;
+export default watchers;
